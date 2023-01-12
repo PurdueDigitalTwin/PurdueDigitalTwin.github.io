@@ -125,6 +125,15 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+	/* change the font of content */
+		font-size: 1.3em;
+	}
+
+	p_s {
+		margin: 0 0 2em 0;
+	/* change the font of content */
+		color:#423e3a;
+		font-size: 1.5em
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2223,6 +2232,7 @@ input, select, textarea {
 	}
 
 		ul li {
+			font-size: 1.3em;
 			padding-left: 0.5em;
 		}
 
