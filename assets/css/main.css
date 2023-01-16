@@ -2097,11 +2097,6 @@ input, select, textarea {
 			font-weight: 900;
 			line-height: inherit;
 		}
-			.icon.solid.image:before {
-				width: 100%;
-				height: auto;
-				background-image: url('../images/elements//icon.png')
-			}
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
