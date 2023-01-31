@@ -1,3 +1,4 @@
 .idea/
 *.xml
 .idea/PurdueDigitalTwin.github.io.iml
+.DS_Store

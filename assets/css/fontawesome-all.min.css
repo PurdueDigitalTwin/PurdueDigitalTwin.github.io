@@ -6302,6 +6302,14 @@
     font-weight: 900
 }
 
+/* https://fontawesome.com/docs/web/style/custom */
 .fa-purdue:before {
-    content: url("../images/elements/icon.png")
+    background-image: url("../images/elements/icon.png");
+    background-size: 24px 16px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 16px;
 }
