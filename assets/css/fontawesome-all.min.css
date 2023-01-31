@@ -6304,9 +6304,9 @@
 
 /* https://fontawesome.com/docs/web/style/custom */
 .fa-purdue:before {
-    background-image: url("../images/elements/icon.png");
-    background-size: 24px 16px;
-    background-position: 0px 0px;
+    background-image: url("../images/elements/icon_36_36.png");
+    background-size: 24px 24px;
+    background-position: 0px -2px;
     background-repeat: no-repeat;
     content: "";
     display: inline-block;
