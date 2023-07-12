@@ -1847,7 +1847,7 @@ input[type="button"],
   .wrapper {
     &.split {
       .primary {
-        @include padding(3em, 0);
+        //@include padding(3em, 0);
         float: none;
         width: 100%;
       }
