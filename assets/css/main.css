@@ -9,8 +9,8 @@
 
 .headshot {
   width: 100%;            /* take up full width of its column */
-  max-width: 250px;       /* don’t grow larger than 250px */
-  aspect-ratio: 5 / 6;    /* keeps consistent portrait ratio */
+  max-width: 280px;       /* don’t grow larger than 250px */
+  aspect-ratio: 5 / 7;    /* keeps consistent portrait ratio */
   object-fit: cover;      /* crops image nicely */
   border-radius: 5%;      /* optional rounded corners */
   display: block;
