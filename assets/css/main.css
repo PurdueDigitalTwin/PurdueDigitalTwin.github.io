@@ -8,10 +8,13 @@
 */
 
 .headshot {
-  width: 250px;      /* choose the size you want */
-  height: 300px;
-  object-fit: cover; /* crop and fill without stretching */
-  border-radius: 5%; /* optional: round corners */
+  width: 100%;            /* take up full width of its column */
+  max-width: 250px;       /* don’t grow larger than 250px */
+  aspect-ratio: 5 / 6;    /* keeps consistent portrait ratio */
+  object-fit: cover;      /* crops image nicely */
+  border-radius: 5%;      /* optional rounded corners */
+  display: block;
+  margin: 0 auto;         /* center inside column */
 }
 
 .people-page h5 {
