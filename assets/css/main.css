@@ -17,6 +17,10 @@
   margin: 0 auto;         /* center inside column */
 }
 
+.people-page .placeholder-profile {
+  display: flow-root;
+}
+
 .people-page h5 {
   margin: 0px 0;
 }
