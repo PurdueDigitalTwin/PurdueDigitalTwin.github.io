@@ -21,6 +21,38 @@
   display: flow-root;
 }
 
+.people-page .profile-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  width: 100%;
+}
+
+.people-page .profile-card .profile-photo {
+  display: block;
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding: 0;
+  top: 0;
+}
+
+.people-page .profile-card .profile-content {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .people-page .profile-card {
+    flex-direction: column;
+  }
+
+  .people-page .profile-card .profile-photo {
+    flex-basis: auto;
+    max-width: 280px;
+    width: 100%;
+  }
+}
+
 .people-page h5 {
   margin: 0px 0;
 }
