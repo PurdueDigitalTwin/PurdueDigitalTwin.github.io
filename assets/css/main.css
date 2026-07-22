@@ -21,17 +21,51 @@
   display: flow-root;
 }
 
+/* Keep profile text in a dedicated right-hand column. */
+.people-page .row > .col-6 {
+  position: relative;
+}
+
+.people-page .row > .col-6:has(> h3 > .image.left) {
+  display: flow-root;
+  margin-bottom: 3em;
+}
+
+/* Reserve the headshot's full height even though the visible image is positioned. */
+.people-page .row > .col-6:has(> h3 > .image.left)::before {
+  aspect-ratio: 5 / 7;
+  content: "";
+  float: left;
+  width: calc(40% - 1.5em);
+}
+
+.people-page .row > .col-6 > h3,
+.people-page .row > .col-6 > h5,
+.people-page .row > .col-6 > p,
+.people-page .row > .col-6 > ul {
+  margin-left: 43%;
+}
+
+.people-page .row > .col-6 > h3 > .image.left {
+  float: none;
+  left: 2em;
+  padding: 0 1.5em 1em 0;
+  position: absolute;
+  top: 0;
+  width: 40%;
+}
+
 .people-page .profile-card {
   display: flex;
   align-items: flex-start;
-  gap: 1.5em;
+  gap: 2em;
   width: 100%;
 }
 
 .people-page .profile-card .profile-photo {
   display: block;
-  flex: 0 0 40%;
-  max-width: 40%;
+  flex: 0 0 calc(40% - 1.5em);
+  max-width: calc(40% - 1.5em);
   padding: 0;
   top: 0;
 }
