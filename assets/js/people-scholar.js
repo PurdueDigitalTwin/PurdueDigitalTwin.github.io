@@ -43,6 +43,8 @@
     "Kyungmin Kim": true,
     "Kahyun Lee": true,
     "Prashanth Sankaranarayanan": true,
+    "Justin P Finn": true,
+    "Vincent Yu-Je Chia": true,
   };
 
   document.querySelectorAll(".people-page .col-6 > h3").forEach(function (heading) {
