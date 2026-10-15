@@ -3915,3 +3915,30 @@ input, select, textarea {
   padding-left: 0;
   margin-top: 8px; /* extra margin at top */
 }
+
+/* Keep the homepage mission and sidebar aligned on desktop. */
+@media screen and (min-width: 981px) {
+  #one.split > .container {
+    display: flex;
+    align-items: stretch;
+  }
+
+  #one.split .primary {
+    padding-top: 4em;
+  }
+
+  #one.split .secondary {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #one.split .secondary > section:last-child {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1280px) {
+  #one.split .primary {
+    padding-top: 3em;
+  }
+}
