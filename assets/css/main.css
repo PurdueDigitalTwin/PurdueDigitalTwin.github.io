@@ -4001,9 +4001,9 @@ input, select, textarea {
   max-width: 170px;
 }
 
-#sponsors img[src$="toyota-research-institute.svg"] {
-  height: auto;
-  max-height: 90px;
+#sponsors img[src$="toyota-research-institute.jpg"] {
+  max-width: 140px;
+  height: 120px;
 }
 
 @media screen and (max-width: 736px) {
