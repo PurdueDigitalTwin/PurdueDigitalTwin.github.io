@@ -47,6 +47,7 @@
     "Vincent Yu-Je Chia": true,
     "Zheng Qing": true,
     "Jaein Reuw": true,
+    "Amrith Pusala": true,
   };
 
   document.querySelectorAll(".people-page .col-6 > h3").forEach(function (heading) {
