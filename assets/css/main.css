@@ -107,6 +107,10 @@
   margin-top: 3em;
 }
 
+.people-page .undergraduate-row-offset {
+  margin-top: 4em;
+}
+
 .people-page h2 {
   margin-top: 30px; /* reduce space below the name */
 }
